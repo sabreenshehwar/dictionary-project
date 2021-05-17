@@ -1,7 +1,6 @@
 import React from "react";
 
 export default function Meaning(props) {
-    console.log(props.meaning)
     return (
         <div className="Meaning">
             <h5>{props.meaning.partOfSpeech}</h5>
@@ -11,6 +10,7 @@ export default function Meaning(props) {
                         <p>
                             {definition.definition}
                             <br />
+                            <strong>Example: </strong>
                             <em>{definition.example}</em>
                         </p>
                     </div>
