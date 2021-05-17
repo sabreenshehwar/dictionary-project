@@ -1,3 +1,13 @@
 .Dictionary {
-  color: blue;
+  color: black;
+}
+
+.Results {
+  border-color: white;
+  border-style: solid;
+  text-align: left;
+  padding: 10px;
+}
+h2 {
+  text-transform: capitalize;
 }
