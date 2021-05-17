@@ -5,7 +5,16 @@
   border-spacing: 15px;
   box-shadow: 5px 15px rgb(0, 0, 0, 10%);
 }
-
+.Dictionary input {
+  width: 100%;
+  padding: 6px 4px;
+  border: 1px solid;
+  border-color: teal;
+}
+img {
+  border: 2px solid;
+  border-color: white;
+}
 .Results {
   border-color: white;
   border-style: solid;
